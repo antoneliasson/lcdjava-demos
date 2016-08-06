@@ -41,6 +41,14 @@ public class BasicDemo
         // This will fail (check return value) if Screen not activated
         titleWidget.activate();
         stringWidget.activate();
+
+        // Shut down the LCDproc connection cleanly on JVM termination
+        Runtime.getRuntime().addShutdownHook(new Thread() {
+            @Override
+            public void run() {
+                lcd.shutdown();
+            }
+        });
     }
 
     public static void main(String args[])
