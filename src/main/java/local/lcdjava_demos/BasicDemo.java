@@ -56,8 +56,8 @@ public class BasicDemo
         if (args.length != 2)
         {
             System.err.println(
-                    "Usage: java org.boncey.lcdjava.demo.Demo <LCD host> <LCD port>");
-            System.exit(-1);
+                    "Usage: java BasicDemo <LCD host> <LCD port>");
+            System.exit(1);
         }
 
         String host = args[0];
