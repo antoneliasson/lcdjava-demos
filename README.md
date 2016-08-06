@@ -18,3 +18,7 @@ To run it using Maven's exec plugin, use a command line like the following. This
     [local.lcdjava_demos.BigClockDemo.main()] INFO org.boncey.lcdjava.LCD - Connected
     Connected to LCDd: Version = 0.5.7; protocol version = 0.3; width = 20; height = 4; cell width = 5; cell height = 8
     Press Ctrl+C to exit
+    ^C[Thread-1] DEBUG org.boncey.lcdjava.LCD - Shutdown requested
+    [Thread-1] DEBUG org.boncey.lcdjava.LCD - Waiting for LCDSocketPoller to terminate...
+    [Thread-2] DEBUG org.boncey.lcdjava.LCDSocketPoller - Terminating
+    [Thread-1] DEBUG org.boncey.lcdjava.LCD - Closing socket
