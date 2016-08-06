@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <slf4j.version>1.7.21</slf4j.version>
   </properties>
 
   <build>
@@ -31,6 +32,16 @@
       <groupId>org.boncey.lcdjava</groupId>
       <artifactId>lcdjava</artifactId>
       <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>${slf4j.version}</version>
     </dependency>
   </dependencies>
 </project>
