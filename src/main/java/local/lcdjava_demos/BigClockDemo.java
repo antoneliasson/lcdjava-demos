@@ -118,7 +118,7 @@ public class BigClockDemo extends Thread {
     public static void main(String args[]) throws Exception {
         if (args.length != 2) {
             System.err.println(
-                    "Usage: java org.boncey.lcdjava.demo.BigClock <LCD host> <LCD port>");
+                    "Usage: java BigClock <LCD host> <LCD port>");
             System.exit(1);
         }
 
