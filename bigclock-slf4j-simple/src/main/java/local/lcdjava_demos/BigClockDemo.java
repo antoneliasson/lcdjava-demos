@@ -1,9 +1,9 @@
 package local.lcdjava_demos;
 
-import org.boncey.lcdjava.LCD;
-import org.boncey.lcdjava.LCDException;
-import org.boncey.lcdjava.NumWidget;
-import org.boncey.lcdjava.Screen;
+import org.lcdproc.lcdjava.LCD;
+import org.lcdproc.lcdjava.LCDException;
+import org.lcdproc.lcdjava.NumWidget;
+import org.lcdproc.lcdjava.Screen;
 
 import java.util.Calendar;
 

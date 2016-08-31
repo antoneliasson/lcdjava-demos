@@ -1,10 +1,10 @@
 package local.lcdjava_demos;
 
-import org.boncey.lcdjava.LCD;
-import org.boncey.lcdjava.LCDException;
-import org.boncey.lcdjava.Screen;
-import org.boncey.lcdjava.StringWidget;
-import org.boncey.lcdjava.TitleWidget;
+import org.lcdproc.lcdjava.LCD;
+import org.lcdproc.lcdjava.LCDException;
+import org.lcdproc.lcdjava.Screen;
+import org.lcdproc.lcdjava.StringWidget;
+import org.lcdproc.lcdjava.TitleWidget;
 
 /**
  * Sample class to demonstrate how to display various widgets.
